@@ -50,7 +50,7 @@ p#name {
   background-color: black;
   flex-direction: column;
   width: 370px;
-  background-image: url(/attributes/aboutmemobile.png);
+  background-image: url(attributes/aboutmemobile.png);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 24pc;
@@ -239,7 +239,7 @@ h3#greetings {
 }
 
 .works {
-  background-image: url(/attributes/work-image-1.png);
+  background-image: url(attributes/work-image-1.png);
   background-repeat: round;
   height: 436px;
   width: 327px;
@@ -349,7 +349,7 @@ h3#greetings {
   background-color: black;
   width: 370px;
   height: 1695px;
-  background-image: url(/attributes/aboutmemobile.png);
+  background-image: url(attributes/aboutmemobile.png);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 24pc;
@@ -598,7 +598,7 @@ h3#greetings {
 }
 
 .project {
-  background-image: url(/attributes/work-image-1.png);
+  background-image: url(attributes/work-image-1.png);
   background-repeat: round;
   width: 327px;
   height: 386px;
@@ -655,7 +655,7 @@ h3#greetings {
     flex-direction: column;
     height: 870px;
     width: 100%;
-    background-image: url(/attributes/group.png);
+    background-image: url(attributes/group.png);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: -1pc;
@@ -798,7 +798,7 @@ h3#greetings {
   }
 
   .project {
-    background-image: url(./attributes/work-image-1.png);
+    background-image: url(attributes/work-image-1.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -846,40 +846,40 @@ h3#greetings {
   #prcjt2 {
     position: absolute;
     left: 534.5px;
-    background-image: url(/attributes/prjct2.png);
+    background-image: url(attributes/prjct2.png);
   }
 
   #prcjt3 {
     position: absolute;
     left: 927.5px;
-    background-image: url(/attributes/prjct3.png);
+    background-image: url(attributes/prjct3.png);
   }
 
   #prcjt4 {
     position: absolute;
     left: 141.5px;
     top: 2115px;
-    background-image: url(/attributes/work-image-1.png);
+    background-image: url(attributes/work-image-1.png);
   }
 
   #prcjt5 {
     position: absolute;
     top: 2115px;
     left: 534.5px;
-    background-image: url(/attributes/prjct2.png);
+    background-image: url(attributes/prjct2.png);
   }
 
   #prcjt6 {
     position: absolute;
     top: 2115px;
     left: 927.5px;
-    background-image: url(/attributes/prjct3.png);
+    background-image: url(attributes/prjct3.png);
   }
 
   .about_me {
     height: 1195px;
     width: 100%;
-    background-image: url(/attributes/aboutdesktop.svg);
+    background-image: url(attributes/aboutdesktop.svg);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 8pc;
