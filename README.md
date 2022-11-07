@@ -5,6 +5,8 @@
 
 > In this project, I set up my portfolio for the Desktop. This project includes a complete replica of a porfolio-template from Figma. It is only the front-end project so it only contains .html and .css files.
 
+> Link to my portfolio: https://wahaj-ali.github.io/portfolio.github.io/
+
 
 ## Built With
 
