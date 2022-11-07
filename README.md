@@ -1,7 +1,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio-Desktop-Version
+# Portfolio:application-deploy
 
 > In this project, I set up my portfolio for the Desktop. This project includes a complete replica of a porfolio-template from Figma. It is only the front-end project so it only contains .html and .css files.
 
