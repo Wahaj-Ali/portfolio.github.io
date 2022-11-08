@@ -603,6 +603,22 @@ h1#greetings {
   width: 327px;
   height: 386px;
   position: relative;
+  margin-bottom: 20px;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.footer {
+  background-color: #fff;
 }
 
 @media only screen and (min-width: 769px) {
@@ -817,10 +833,10 @@ h1#greetings {
     line-height: 44px;
     color: #fff;
     width: 337px;
-    height: 81px;
+    height: 62px;
     font-family: 'Crete Round', serif;
     position: relative;
-    top: 178px;
+    top: 170px;
     left: 16px;
   }
 
@@ -971,6 +987,7 @@ h1#greetings {
   .contact {
     width: 100%;
     flex-direction: column;
+    margin-bottom: -16px;
   }
 
   .contact p {
@@ -1012,7 +1029,7 @@ h1#greetings {
   #end {
     flex-direction: row;
     position: relative;
-    bottom: 60px;
+    bottom: 20px;
     left: 620px;
   }
 }
