@@ -78,6 +78,10 @@ li {
   width: 50px;
 }
 
+.disappear {
+  opacity: 0;
+}
+
 #name {
   flex-direction: row;
   align-items: center;
