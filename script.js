@@ -1,6 +1,7 @@
 const menuIcon = document.querySelector('.menu-icon');
 const mainMenu = document.querySelector('.main-menu');
 const myLogo = document.querySelector('.mylogo');
+const scroll = document.querySelector('#scrollable');
 
 menuIcon.addEventListener('click', () => {
   menuIcon.classList.toggle('active');
@@ -11,3 +12,10 @@ document.querySelectorAll('.header-btn').forEach((n) => n.addEventListener('clic
   menuIcon.classList.remove('active');
   mainMenu.classList.remove('active');
 }));
+scroll.addEventListener('wheel', preventScroll, {passive: false});
+function preventScroll(e){
+  e.preventDefault();
+  e.stopPropagation();
+
+  return false;
+}
