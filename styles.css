@@ -43,7 +43,18 @@ p#name {
   padding: 25px;
   flex: 0 10 1px;
 }
-
+.menu-icon{
+  height: 40px;
+  width: 40px;
+  background-image: url(./attributes/union.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+.menu-icon.active{
+  background-image: url(./attributes/cross.svg) !important;
+  object-fit: contain;
+}
 .container-headline {
   display: flex;
   flex-wrap: wrap;
@@ -561,9 +572,31 @@ h3#greetings {
 }
 
 .desktop_headicons {
-  display: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
-
+.main-nav{
+  padding: 0 !important;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: fixed;
+    width: 100%;
+    top: 64px;
+    background: rgba(0, 0, 0, .8);
+    right: -100%
+}
+.main-nav.active{
+  right: 0 !important;
+}
+.header_btn{
+  text-decoration: none;
+  color: white;
+}
 .desktop_projects {
   display: grid;
   align-items: center;
@@ -632,7 +665,13 @@ h3#greetings {
     font-size: 15px;
     line-height: 20px;
   }
-
+.main-nav{
+  padding: 0 !important;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
   .mylogo {
     margin-left: 120px;
   }
