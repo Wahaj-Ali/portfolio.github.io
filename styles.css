@@ -694,7 +694,7 @@ h3#greetings {
     flex-direction: row;
     gap: 42px;
     position: relative;
-    top: 0px;
+    top: 0;
     left: 150px;
     background: transparent;
     width: 100px;
