@@ -41,6 +41,14 @@ li {
   left: 0;
   width: 329px;
   margin-left: 8px;
+  height: 100vh;
+}
+
+.main-menu.active .header-btn {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
 }
 
 .nav-item {
