@@ -3,10 +3,53 @@ body {
   overflow-y: scroll;
 }
 
-.container-header {
-  display: flex;
+header {
   background: #3c3a39;
+  height: 72px;
   width: 370px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.main-menu {
+  position: absolute;
+  left: -115%;
+  top: 64px;
+  gap: 0;
+  flex-direction: column;
+  background-color: #3c3a39;
+  width: 100%;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.main-menu.active {
+  left: 0;
+  width: 329px;
+  margin-left: 8px;
+}
+
+.nav-item {
+  margin: 16px 0;
+}
+
+
+#mail {
+  display: none;
 }
 
 .mylogo {
@@ -43,7 +86,8 @@ p#name {
   padding: 25px;
   flex: 0 10 1px;
 }
-.menu-icon{
+
+.menu-icon {
   height: 40px;
   width: 40px;
   background-image: url(./attributes/union.png);
@@ -51,10 +95,12 @@ p#name {
   background-position: center;
   object-fit: cover;
 }
-.menu-icon.active{
-  background-image: url(./attributes/cross.svg) !important;
+
+.menu-icon.active {
+  background-image: url(./attributes/cross.png) !important;
   object-fit: contain;
 }
+
 .container-headline {
   display: flex;
   flex-wrap: wrap;
@@ -577,26 +623,40 @@ h3#greetings {
   justify-content: space-between;
   width: 100%;
 }
-.main-nav{
+
+.main-nav {
   padding: 0 !important;
   list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  position: fixed;
-    width: 100%;
-    top: 64px;
-    background: rgba(0, 0, 0, .8);
-    right: -100%
+  position: absolute;
+  width: 100%;
+  top: 64px;
+  background: rgba(0, 0, 0, .8);
+  right: -100%
 }
-.main-nav.active{
+
+.main-nav.active {
   right: 0 !important;
 }
-.header_btn{
+
+.header-btn {
   text-decoration: none;
   color: white;
+  transition: 0.7s ease;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
 }
+
+.header-btn:hover {
+  color: #ff6b00;
+}
+
 .desktop_projects {
   display: grid;
   align-items: center;
@@ -644,7 +704,28 @@ h3#greetings {
     margin: 0%;
   }
 
-  .container-header {
+  .desktop-nav {
+    display: flex;
+  }
+
+  .main-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+    position: relative;
+    top: 0px;
+    left: 150px;
+    background: transparent;
+    width: 100px;
+  }
+
+  #mail {
+    display: flex;
+    position: relative;
+    right: 142px;
+  }
+
+  header {
     width: 100%;
     height: 72px;
   }
@@ -653,8 +734,9 @@ h3#greetings {
     display: none;
   }
 
-  .desktop_headicons {
+  .main-nav {
     display: flex;
+    flex-direction: row;
     margin-left: auto;
     margin-right: 150px;
     gap: 25px;
@@ -664,14 +746,19 @@ h3#greetings {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
+    position: relative;
+    top: 10px;
+    left: 46px;
+    width: 35%;
+    align-self: baseline;
+    justify-content: flex-end;
+    background: transparent;
   }
-.main-nav{
-  padding: 0 !important;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
+
+  .menu-icon {
+    display: none;
+  }
+
   .mylogo {
     margin-left: 120px;
   }
