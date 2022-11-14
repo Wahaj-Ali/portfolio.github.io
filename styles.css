@@ -47,7 +47,6 @@ li {
   margin: 16px 0;
 }
 
-
 #mail {
   display: none;
 }
@@ -624,29 +623,11 @@ h3#greetings {
   width: 100%;
 }
 
-.main-nav {
-  padding: 0 !important;
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  position: absolute;
-  width: 100%;
-  top: 64px;
-  background: rgba(0, 0, 0, .8);
-  right: -100%
-}
-
-.main-nav.active {
-  right: 0 !important;
-}
-
 .header-btn {
   text-decoration: none;
   color: white;
   transition: 0.7s ease;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -723,6 +704,8 @@ h3#greetings {
     display: flex;
     position: relative;
     right: 142px;
+    width: 24px;
+    height: 24px;
   }
 
   header {
@@ -770,11 +753,6 @@ h3#greetings {
 
   .desktop_headicons :hover {
     text-decoration: underline;
-  }
-
-  #mail {
-    width: 24px;
-    height: 24px;
   }
 
   .container-headline {
