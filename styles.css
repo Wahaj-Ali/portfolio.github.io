@@ -44,6 +44,21 @@ li {
   height: 100vh;
 }
 
+.header-btn {
+  text-decoration: none;
+  color: white;
+  transition: 0.7s ease;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.header-btn:hover {
+  color: #ff6b00;
+}
+
 .main-menu.active .header-btn {
   font-weight: 700;
   font-size: 32px;
@@ -628,21 +643,6 @@ h3#greetings {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-}
-
-.header-btn {
-  text-decoration: none;
-  color: white;
-  transition: 0.7s ease;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-}
-
-.header-btn:hover {
-  color: #ff6b00;
 }
 
 .desktop_projects {
