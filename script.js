@@ -25,7 +25,7 @@ const cards = [{
   id: 0,
   title: 'Multi-Post-Stories',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-  img: 'attributes/workimage.png',
+  img: '/attributes/workimage.png',
   tech1: 'HTML',
   tech2: 'Bootstrap',
   tech3: 'Ruby',
@@ -34,7 +34,7 @@ const cards = [{
 {
   title: 'Profesional Art Printing Data More',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  img: 'attributes/workimage.png',
+  img: '/attributes/workimage.png',
   tech1: 'HTML',
   tech2: 'Bootstrap',
   tech3: 'Ruby',
@@ -45,7 +45,7 @@ const cards = [{
 {
   title: 'Multi-Post-Stories',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-  img: 'attributes/prjct2.png',
+  img: '/attributes/prjct2.png',
   tech1: 'HTML',
   tech2: 'Bootstrap',
   tech3: 'Ruby',
@@ -56,7 +56,7 @@ const cards = [{
 {
   title: 'Multi-Post-Stories',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-  img: 'attributes/prjct3.png',
+  img: '/attributes/prjct3.png',
   tech1: 'HTML',
   tech2: 'Bootstrap',
   tech3: 'Ruby',
@@ -67,7 +67,7 @@ const cards = [{
 {
   title: 'Profesional Art Printing Data More',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-  img: 'attributes/workimage.png',
+  img: '/attributes/workimage.png',
   tech1: 'HTML',
   tech2: 'Bootstrap',
   tech3: 'Ruby',
@@ -78,7 +78,7 @@ const cards = [{
 {
   title: 'Multi-Post-Stories',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-  img: 'attributes/prjct2.png',
+  img: '/attributes/prjct2.png',
   tech1: 'HTML',
   tech2: 'Bootstrap',
   tech3: 'Ruby',
@@ -89,11 +89,11 @@ const cards = [{
 {
   title: 'Multi-Post-Stories',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-  img: 'attributes/prjct3.png',
+  img: '/attributes/prjct3.png',
   tech1: 'HTML',
   tech2: 'Bootstrap',
   tech3: 'Ruby',
-  btnText: ' Project',
+  btnText: 'See Project',
   id: 6,
   uniqueId: 'prcjt6'
 },
@@ -115,8 +115,8 @@ function displayCards() {
                     <li id="lang3">${card.tech3}</li>
                 </ul>
             </article>
-            <button type="submit" class="checkout-button" id="projects-btn2" name="checkout-button"
-                enable="disabled">${card.btnText}</button>
+            <button type="submit" class="checkout-button button_interactions" id="projects-btn2" name="checkout-button"
+                >${card.btnText}</button>
         </section>`;
   });
   document.querySelector('.desktop_projects').innerHTML = result;
@@ -128,13 +128,13 @@ displayCards();
 const btn = document.getElementsByClassName('checkout-button');
 const popupWin = document.getElementById('popup-win');
 cards.forEach((card) => {
-  for(let i=0; i< btn.length; i += 1) {
-    btn[i].addEventListener('click', () =>{
-      if(i === ((card.id))) {
-        popupWin.style.display= 'block';
+  for (let i = 0; i < btn.length; i += 1) {
+    btn[i].addEventListener('click', () => {
+      if (i === ((card.id))) {
+        popupWin.style.display = 'block';
         const show = `<div class="content-card-wrap">
         <div class="content-card">
-         <div class="close-button card-x"><img src="Sources/Desktop/Icon - Cancel.png" alt="X"></div>
+         <div class="close-button card-x"><img src="./attributes/cross.png" alt="X"></div>
          <div class="cc-h-wrap">
            <h2 class="card-h">${card.title}</h2>
            <ul class="card-lang-wrapper">
@@ -153,10 +153,10 @@ cards.forEach((card) => {
              </p>
              <div class="card-b-wrap">
                <a class="card-link">
-                 <button class="card-button">See Live<img src="Sources/Desktop/Frame.png" alt="" class="card-i"></button>
+                 <button class="card-button id="b1">See Live<img src="attributes/live.png" alt="" class="card-i"></button>
                </a>
                <a class="card-link">
-                 <button class="card-button">See Source<img src="Sources/Desktop/Icon-see live.png" alt=""></button>
+                 <button class="card-button" id="b2">See Source<img src="attributes/vector.png" alt="" class="card-i2"></button>
                </a>
              </div>
            </div>
@@ -164,16 +164,16 @@ cards.forEach((card) => {
        </div>
        </div>`;
 
-       popupWin.innerHTML = show;
+        popupWin.innerHTML = show;
 
-       //close the popup
-       const closePopup = document.getElementsByClassName('card-x');
-       for (let j = 0; j < cardX.length; j += 1) {
-        closePopup[j].addEventListener('click', () => {
-           popUpWrapper.style.display = 'none';
-         });
-       }
+        //close the popup
+        const closePopup = document.getElementsByClassName('card-x');
+        for (let j = 0; j < closePopup.length; j += 1) {
+          closePopup[j].addEventListener('click', () => {
+            popupWin.style.display = 'none';
+          });
+        }
       }
-    })
+    });
   }
-})
+});
