@@ -291,6 +291,179 @@ h3#greetings {
   margin: 12px 24px;
 }
 
+.content-card-wrap {
+  display: flex;
+  z-index: 12;
+  position: fixed;
+  top: -88px;
+  left: 0;
+  align-items: center;
+  padding: 16px;
+  width: 370px;
+  height: 100%;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+}
+
+.content-card {
+  padding: 16px;
+  width: 80%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  top: 50px;
+  right: 10px;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.close-button {
+  position: relative;
+  left: 45%;
+  bottom: 8px;
+}
+
+.cc-h-wrap {
+  height: 15%;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  bottom: 70px;
+  right: 25px;
+  gap: 15px;
+}
+
+.card-h {
+  width: 259px;
+  height: 82px;
+  font-size: 18px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.card-lang-wrapper {
+  list-style: none;
+  display: flex;
+  position: relative;
+  right: 40px;
+  bottom: 75px;
+}
+
+.card-lang-wrapper li {
+  padding: 8px 12px;
+  border: 1px solid rgba(137, 147, 164, 1);
+  margin-right: 12px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: rgb(60, 58, 57);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 340px;
+}
+
+.card-cb-wrap {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 165px;
+}
+
+.card-p {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #344563;
+  width: 310px;
+}
+
+.card-b-wrap {
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  top: 225px;
+}
+
+.card-button {
+  background-color: rgb(255, 107, 0, 1);
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  padding: 12px;
+  border: 1px solid #f55800;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  transition-duration: 0.15s;
+  align-items: center;
+  gap: 2px;
+  height: 48px;
+}
+
+#b1 {
+  width: 120px;
+  gap: 10px;
+}
+
+#b2 {
+  width: 148px;
+}
+
+.card-img-w {
+  position: relative;
+  bottom: 150px;
+}
+
+.card-img {
+  width: 100%;
+  height: 220px;
+}
+
+.card-button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.card-button:active {
+  background: rgb(224, 83, 4);
+  border: 1px solid #f55800;
+  color: white;
+}
+
+.card-button:disabled {
+  background: rgb(224, 241, 240);
+  border: 1px solid rgb(224, 241, 240);
+  color: rgb(91, 89, 87);
+}
+
+.button_interactions:hover {
+  background-color: #ffe3d3ef;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.button_interactions:focus {
+  color: rgb(226, 223, 223);
+  background-color: #f55800;
+}
+
 .works_image {
   width: 304px;
   padding-left: 2px;
@@ -367,6 +540,7 @@ h3#greetings {
   margin-left: -25px;
   position: relative;
   top: 22px;
+  color: #fff;
 }
 
 #lang2 {
@@ -423,8 +597,8 @@ h3#greetings {
   margin-top: 14px;
   text-align: center;
   letter-spacing: 0.03em;
-  position: relative;
-  top: 10px;
+  position: absolute;
+  top: 332px;
 }
 
 .about_me {
@@ -805,6 +979,82 @@ h3#greetings {
     display: none;
   }
 
+  .project_descp1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round', serif;
+    position: relative;
+    top: 178px;
+    left: 16px;
+  }
+
+  .project_detail {
+    width: 337px;
+    height: 72px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    top: 153px;
+    left: 16px;
+  }
+
+  .project:hover #projects-btn2 {
+    display: block;
+    width: 100%;
+    height: 58px;
+    position: relative;
+    top: 380px;
+  }
+
+  .project:hover .project_descp1 {
+    display: none;
+  }
+
+  .project:hover .list {
+    display: none;
+  }
+
+  .project:hover .project_detail {
+    display: none;
+  }
+
+  .cc-h-wrap {
+    gap: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    right: 485px;
+  }
+
+  .card-h {
+    width: 506px;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #172b4d;
+    position: relative;
+  }
+
+  .card-button {
+    font-size: 17px;
+    gap: 8px;
+  }
+
+  .card-b-wrap {
+    position: relative;
+    top: 10px;
+    gap: 10px;
+  }
+
   #intro1 {
     font-weight: 500;
     font-size: 32px;
@@ -850,6 +1100,85 @@ h3#greetings {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+
+  .content-card-wrap {
+    width: 100vw;
+    height: 100vh;
+    top: -22px;
+  }
+
+  .content-card {
+    width: 80%;
+    height: 80%;
+    padding: 2.5%;
+    position: initial;
+  }
+
+  .card-lang-wrapper {
+    position: relative;
+    bottom: 45px;
+    right: 50px;
+  }
+
+  .card-lang-wrapper li {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .card-content {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 50%;
+  }
+
+  .card-img-w {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .card-img {
+    width: 659px;
+    height: 448px;
+  }
+
+  .card-i {
+    width: 12px;
+    height: 12px;
+  }
+
+  .card-i2 {
+    width: 28px;
+    height: 33px;
+  }
+
+  .card-cb-wrap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 40px;
+    right: 45px;
+    align-items: flex-start;
+  }
+
+  .card-p {
+    width: 500px;
+    height: 380px;
+  }
+
+  .close-button {
+    left: 50%;
+  }
+
+  #b1 {
+    width: 134px;
+    height: 48px;
+  }
+
+  #b2 {
+    width: 164px;
+    height: 48px;
   }
 
   .works_image {
@@ -926,31 +1255,14 @@ h3#greetings {
     top: 1643px;
   }
 
-  .project_descp1 {
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-    color: #fff;
-    width: 337px;
-    height: 81px;
-    font-family: 'Crete Round', serif;
-    position: relative;
-    top: 178px;
-    left: 16px;
-  }
-
-  .project_detail {
-    width: 337px;
-    height: 72px;
-    color: #fff;
-    font-size: 17px;
-    line-height: 24px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    position: relative;
-    top: 153px;
-    left: 16px;
+  .preview-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 50px;
+    column-gap: 24px;
+    padding: 0 141px 0 100px;
+    margin-bottom: 120px;
   }
 
   .lang_container_2 {
