@@ -12,12 +12,12 @@ document.querySelectorAll('.header-btn').forEach((n) => n.addEventListener('clic
   menuIcon.classList.remove('active');
   mainMenu.classList.remove('active');
 }));
-scroll.addEventListener('wheel', preventScroll, { passive: false });
 function preventScroll(e) {
   e.preventDefault();
   e.stopPropagation();
   return false;
 }
+scroll.addEventListener('wheel', preventScroll, { passive: false });
 
 // dynamic cards
 
@@ -114,7 +114,7 @@ function displayCards() {
 
 displayCards();
 
-//popup window//
+// popup window
 const btn = document.getElementsByClassName('checkout-button');
 const popupWin = document.getElementById('popup-win');
 cards.forEach((card) => {
@@ -160,7 +160,7 @@ cards.forEach((card) => {
 
         popupWin.innerHTML = show;
 
-        //close the popup//
+        // close the popup
         const closePopup = document.getElementsByClassName('card-x');
         for (let j = 0; j < closePopup.length; j += 1) {
           closePopup[j].addEventListener('click', () => {
