@@ -756,7 +756,7 @@ h3#greetings {
   margin-bottom: -30px;
 }
 
-#full_name {
+.full_name {
   text-align: center;
   height: 18px;
   width: 360px;
