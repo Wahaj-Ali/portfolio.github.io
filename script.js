@@ -36,7 +36,7 @@ const cards = [{
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 1,
-  uniqueId: 'prcjt1'
+  uniqueId: 'prcjt1',
 },
 {
   title: 'Multi-Post-Stories',
@@ -45,7 +45,7 @@ const cards = [{
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 2,
-  uniqueId: 'prcjt2'
+  uniqueId: 'prcjt2',
 },
 {
   title: 'Multi-Post-Stories',
@@ -54,7 +54,7 @@ const cards = [{
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 3,
-  uniqueId: 'prcjt3'
+  uniqueId: 'prcjt3',
 },
 {
   title: 'Profesional Art Printing Data More',
@@ -63,7 +63,7 @@ const cards = [{
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 4,
-  uniqueId: 'prcjt4'
+  uniqueId: 'prcjt4',
 },
 {
   title: 'Multi-Post-Stories',
@@ -72,7 +72,7 @@ const cards = [{
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 5,
-  uniqueId: 'prcjt5'
+  uniqueId: 'prcjt5',
 },
 {
   title: 'Multi-Post-Stories',
@@ -81,7 +81,7 @@ const cards = [{
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 6,
-  uniqueId: 'prcjt6'
+  uniqueId: 'prcjt6',
 },
 ];
 
@@ -95,7 +95,6 @@ function displayCards() {
     for (let x = 0; x < techTags.length; x += 1) {
       techList += `<li class="lang">${techTags[x]}</li>`;
     }
-    
     result += `
 
     <section class="project" id="${card.uniqueId}">
@@ -115,7 +114,7 @@ function displayCards() {
 
 displayCards();
 
-//popup window
+//popup window//
 const btn = document.getElementsByClassName('checkout-button');
 const popupWin = document.getElementById('popup-win');
 cards.forEach((card) => {
@@ -125,10 +124,10 @@ cards.forEach((card) => {
         popupWin.style.display = 'block';
         let modalTechs = '';
         const modalTags = card.techs;
-    //   populate tag list iterating over tags array
-    for (let x = 0; x < modalTags.length; x += 1) {
-      modalTechs += `<li class="lang">${modalTags[x]}</li>`;
-    }
+        //   populate tag list iterating over tags array
+        for (let x = 0; x < modalTags.length; x += 1) {
+          modalTechs += `<li class="lang">${modalTags[x]}</li>`;
+        }
         const show = `<div class="content-card-wrap">
         <div class="content-card">
          <div class="close-button card-x"><img src="./attributes/cross.png" alt="X"></div>
@@ -161,7 +160,7 @@ cards.forEach((card) => {
 
         popupWin.innerHTML = show;
 
-        //close the popup
+        //close the popup//
         const closePopup = document.getElementsByClassName('card-x');
         for (let j = 0; j < closePopup.length; j += 1) {
           closePopup[j].addEventListener('click', () => {
