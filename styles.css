@@ -388,15 +388,14 @@ h3#greetings {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   color: #344563;
-  width: 300px;
+  width: 310px;
 }
 
 .card-b-wrap {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   position: absolute;
   top: 225px;
-  padding-left: 12px;
 }
 
 .card-button {
@@ -418,7 +417,8 @@ h3#greetings {
 }
 
 #b1 {
-  width: 111px;
+  width: 120px;
+  gap: 10px;
 }
 
 #b2 {
@@ -1052,6 +1052,7 @@ h3#greetings {
   .card-b-wrap {
     position: relative;
     top: 10px;
+    gap: 10px;
   }
 
   #intro1 {

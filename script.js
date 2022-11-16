@@ -147,7 +147,7 @@ cards.forEach((card) => {
              </p>
              <div class="card-b-wrap">
                <a class="card-link">
-                 <button class="card-button id="b1">See Live<img src="attributes/live.png" alt="" class="card-i"></button>
+                 <button class="card-button" id="b1">See Live<img src="attributes/live.png" alt="" class="card-i"></button>
                </a>
                <a class="card-link">
                  <button class="card-button" id="b2">See Source<img src="attributes/vector.png" alt="" class="card-i2"></button>
