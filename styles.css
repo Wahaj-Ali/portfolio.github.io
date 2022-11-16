@@ -318,6 +318,7 @@ h3#greetings {
   top: 50px;
   right: 10px;
   align-items: center;
+  padding-bottom: 25px;
 }
 
 .close-button {
@@ -400,8 +401,9 @@ h3#greetings {
 .card-b-wrap {
   display: flex;
   gap: 20px;
-  position: relative;
-  /* bottom: 115px; */
+  position: absolute;
+  top: 225px;
+  padding-left: 12px;
 }
 
 .card-button {
@@ -549,9 +551,10 @@ h3#greetings {
   margin-left: -25px;
   position: relative;
   top: 22px;
+  color: #fff;
 }
 
-.lang {
+#lang2 {
   border: solid 1px #fff5e1;
   align-items: center;
   padding: 10px 12px;
@@ -563,10 +566,9 @@ h3#greetings {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  /* color: white; */
 }
 
-/* #lang1 {
+ #lang1 {
   border: solid 1px #fff5e1;
   align-items: center;
   padding: 10px 12px;
@@ -592,7 +594,7 @@ h3#greetings {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-} */
+} 
 
 #projects-btn2 {
   width: 327px;
@@ -606,8 +608,8 @@ h3#greetings {
   margin-top: 14px;
   text-align: center;
   letter-spacing: 0.03em;
-  position: relative;
-  top: 10px;
+  position: absolute;
+  top: 332px;
 }
 
 .about_me {
@@ -1012,7 +1014,7 @@ h3#greetings {
     gap: 10px;
     margin-bottom: 10px;
     position: relative;
-    right: 475px;
+    right: 485px;
   }
 
   .card-h {
@@ -1101,6 +1103,7 @@ h3#greetings {
   .card-lang-wrapper {
     position: relative;
     bottom: 45px;
+    right: 50px;
   }
 
   .card-lang-wrapper li {
