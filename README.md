@@ -29,7 +29,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Wahaj-Ali/Portfolio-Desktop-Version/issues).
+Feel free to check the [issues page](https://github.com/Wahaj-Ali/portfolio.github.io/issues).
 
 ## Show your support
 
