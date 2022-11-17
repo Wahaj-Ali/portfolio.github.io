@@ -171,3 +171,28 @@ cards.forEach((card) => {
     });
   }
 });
+
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+
+const setError = (element, message) => {
+  const inputControl = element.parentElement;
+  const errorDisplay = inputControl.querySelector('.small');
+  errorDisplay.innerText = message;
+  inputControl.classList.add('.small');
+  inputControl.classList.remove('success');
+};
+
+const validateEmail = () => {
+  const emailformat = /^[a-z0-9_!#$%&'*+=?`{|}~^.-]+@[a-z0-9.-]+$/gm;
+  if (email.value.match(emailformat)) {
+    form.submit();
+  } else {
+    setError(email, 'Please, type your email in lowercase');
+  }
+};
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  validateEmail();
+});

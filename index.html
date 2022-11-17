@@ -124,14 +124,15 @@
     <section class="contact">
         <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         <form id="form" action="https://formspree.io/f/xayklnzr" method="post">
-            <input type="text" style="border:none" placeholder="Full Name" name="Name" id="full_name" maxlength="30"
+            <input type="text" style="border:none" placeholder="Full Name" name="Name" class="full_name" maxlength="30"
                 required>
             <hr id="divider1">
-            <input type="email" style="border:none" placeholder="Email Address" name="email" id="full_name" required>
+            <input type="email" id="email" style="border:none" placeholder="Email Address" name="email" class="full_name" required>
             <hr id="divider1">
             <textarea id="message" name="message" placeholder="Enter text here" class="fcf-form-control" rows="6"
                 maxlength="500" required></textarea>
             <button type="submit" class="checkout-button" id="getintouch_btn">Get in touch</button>
+            <div class="small"></div>
         </form>
 
     </section>
