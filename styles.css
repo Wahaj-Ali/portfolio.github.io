@@ -48,7 +48,7 @@ li {
   text-decoration: none;
   color: white;
   transition: 0.7s ease;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -94,7 +94,7 @@ li {
 
 p#name {
   color: antiquewhite;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -140,7 +140,7 @@ p#name {
 
 h3#greetings {
   color: #ff6b00;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 57px;
@@ -156,7 +156,7 @@ h3#greetings {
   color: #fff5e1;
   width: 327px;
   height: 27px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -170,7 +170,7 @@ h3#greetings {
 
 #intro2 {
   color: #fff5e1;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -249,7 +249,7 @@ h3#greetings {
   font-weight: 400;
   font-size: 39px;
   padding: 24px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   display: flex;
 }
 
@@ -264,7 +264,7 @@ h3#greetings {
   border: 1px solid #8993a4;
   padding: 5px;
   margin: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -281,7 +281,7 @@ h3#greetings {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   letter-spacing: 0.03em;
   display: flex;
   justify-content: center;
@@ -302,6 +302,7 @@ h3#greetings {
   width: 370px;
   height: 100%;
   justify-content: center;
+  -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
 }
 
@@ -341,7 +342,7 @@ h3#greetings {
   width: 259px;
   height: 82px;
   font-size: 18px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 700;
   color: #172b4d;
@@ -363,7 +364,7 @@ h3#greetings {
   line-height: 20px;
   font-weight: 500;
   color: rgb(60, 58, 57);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
 }
@@ -385,7 +386,7 @@ h3#greetings {
 .card-p {
   font-size: 16px;
   line-height: 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   color: #344563;
   width: 310px;
@@ -401,7 +402,7 @@ h3#greetings {
 .card-button {
   background-color: rgb(255, 107, 0, 1);
   color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
   font-weight: 500;
@@ -476,7 +477,7 @@ h3#greetings {
   line-height: 1px;
   margin-bottom: auto;
   margin-top: 30px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
 
 #works_intro {
@@ -487,7 +488,7 @@ h3#greetings {
   flex: none;
   order: 1;
   flex-grow: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin-bottom: auto;
   width: 327px;
   height: 147px;
@@ -507,7 +508,7 @@ h3#greetings {
   width: 295px;
   height: 81px;
   color: #fff;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -520,7 +521,7 @@ h3#greetings {
 #work_detail {
   width: 295px;
   height: 87px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -550,7 +551,7 @@ h3#greetings {
   background-color: white;
   opacity: 0.5;
   height: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -564,7 +565,7 @@ h3#greetings {
   background-color: white;
   opacity: 0.5;
   height: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -578,7 +579,7 @@ h3#greetings {
   background-color: white;
   opacity: 0.5;
   height: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -615,7 +616,7 @@ h3#greetings {
 
 #about_text {
   color: #ff6b00;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 70px;
@@ -632,7 +633,7 @@ h3#greetings {
   width: 327px;
   height: 148px;
   margin: 24px 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -691,7 +692,7 @@ h3#greetings {
 .lang_btn {
   width: 150px;
   height: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -742,7 +743,7 @@ h3#greetings {
 
 .contact p {
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -772,7 +773,7 @@ h3#greetings {
   height: 114px;
   width: 310px;
   padding: 10px 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin-left: 10px;
 }
 
@@ -784,14 +785,14 @@ h3#greetings {
 
 ::placeholder {
   font-weight: 700;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 #getintouch_btn {
   margin-left: 117px;
   margin-top: 22px;
   padding-left: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 #getintouch_btn:hover {
@@ -837,7 +838,7 @@ h3#greetings {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   position: relative;
   top: 56px;
   left: 16px;
@@ -850,7 +851,7 @@ h3#greetings {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   position: relative;
   top: 38px;
   left: 16px;
@@ -863,7 +864,15 @@ h3#greetings {
   height: 386px;
   position: relative;
 }
-
+.small {
+  padding: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #172b4d;
+  margin: 10px;
+  border-radius: 12px;
+  width: 350px;
+}
 @media only screen and (min-width: 769px) {
   body {
     background-color: #e5e5e5;
@@ -910,7 +919,7 @@ h3#greetings {
     gap: 25px;
     align-items: center;
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
@@ -986,7 +995,7 @@ h3#greetings {
     color: #fff;
     width: 337px;
     height: 81px;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     position: relative;
     top: 178px;
     left: 16px;
@@ -998,7 +1007,7 @@ h3#greetings {
     color: #fff;
     font-size: 17px;
     line-height: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     position: relative;
@@ -1037,7 +1046,7 @@ h3#greetings {
     width: 506px;
     font-size: 32px;
     line-height: 40px;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 700;
     color: #172b4d;
