@@ -864,6 +864,7 @@ h3#greetings {
   height: 386px;
   position: relative;
 }
+
 .small {
   padding: 15px;
   font-family: "Inter", sans-serif;
@@ -873,6 +874,7 @@ h3#greetings {
   border-radius: 12px;
   width: 350px;
 }
+
 @media only screen and (min-width: 769px) {
   body {
     background-color: #e5e5e5;
