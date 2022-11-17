@@ -196,3 +196,21 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
   validateEmail();
 });
+
+// store data in local storage
+
+const submitButton = document.getElementById('getintouch_btn');
+submitButton.addEventListener('click', () => {
+  let enteredName = document.querySelector('.full_name').value;
+  let enteredEmail = document.getElementById('email').value;
+  let enteredMessage = document.getElementById('message').value;
+  let Data = {
+    Name: enteredName,
+    Email: enteredEmail,
+    Message: enteredMessage
+  }
+
+  localStorage.setItem("Form Data", JSON.stringify(Data));
+
+}
+)
