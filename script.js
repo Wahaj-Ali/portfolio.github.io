@@ -210,12 +210,12 @@ submitButton.addEventListener('click', () => {
     Message: enteredMessage,
   };
   localStorage.setItem('Form Data', JSON.stringify(Data));
-}
-);
+});
+
 const populateForm = () => {
   if (localStorage.key('Form Data')) {
     const savedData = JSON.parse(localStorage.getItem('Form Data'));
-    for (let a = 0; a <= form.length; a+=1) {
+    for (let a = 0; a <= form.length; a += 1) {
       if (localStorage.form !== null) {
         document.querySelector('.full_name').value = savedData.Name;
         document.querySelector('#email').value = savedData.Email;
