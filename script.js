@@ -201,23 +201,21 @@ form.addEventListener('submit', (event) => {
 
 const submitButton = document.getElementById('getintouch_btn');
 submitButton.addEventListener('click', () => {
-  let enteredName = document.querySelector('.full_name').value;
-  let enteredEmail = document.getElementById('email').value;
-  let enteredMessage = document.getElementById('message').value;
-  let Data = {
+  const enteredName = document.querySelector('.full_name').value;
+  const enteredEmail = document.getElementById('email').value;
+  const enteredMessage = document.getElementById('message').value;
+  const Data = {
     Name: enteredName,
     Email: enteredEmail,
-    Message: enteredMessage
-  }
-
-  localStorage.setItem("Form Data", JSON.stringify(Data));
-
+    Message: enteredMessage,
+  };
+  localStorage.setItem('Form Data', JSON.stringify(Data));
 }
-)
+);
 const populateForm = () => {
-  if (localStorage.key("Form Data")) {
-    const savedData = JSON.parse(localStorage.getItem("Form Data"));
-    for (let a = 0; a <= form.length; a++) {
+  if (localStorage.key('Form Data')) {
+    const savedData = JSON.parse(localStorage.getItem('Form Data'));
+    for (let a = 0; a <= form.length; a+=1) {
       if (localStorage.form !== null) {
         document.querySelector('.full_name').value = savedData.Name;
         document.querySelector('#email').value = savedData.Email;
@@ -225,5 +223,5 @@ const populateForm = () => {
       }
     }
   }
-}
+};
 document.onload = populateForm();
