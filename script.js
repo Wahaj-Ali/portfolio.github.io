@@ -210,8 +210,9 @@ submitButton.addEventListener('click', () => {
     Message: enteredMessage,
   };
   localStorage.setItem('Form Data', JSON.stringify(Data));
-}
+};
 );
+
 const populateForm = () => {
   if (localStorage.key('Form Data')) {
     const savedData = JSON.parse(localStorage.getItem('Form Data'));
