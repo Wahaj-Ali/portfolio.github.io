@@ -196,3 +196,32 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
   validateEmail();
 });
+
+// store data in local storage
+
+const submitButton = document.getElementById('getintouch_btn');
+submitButton.addEventListener('click', () => {
+  const enteredName = document.querySelector('.full_name').value;
+  const enteredEmail = document.getElementById('email').value;
+  const enteredMessage = document.getElementById('message').value;
+  const Data = {
+    Name: enteredName,
+    Email: enteredEmail,
+    Message: enteredMessage,
+  };
+  localStorage.setItem('Form Data', JSON.stringify(Data));
+});
+
+const populateForm = () => {
+  if (localStorage.key('Form Data')) {
+    const savedData = JSON.parse(localStorage.getItem('Form Data'));
+    for (let a = 0; a <= form.length; a += 1) {
+      if (localStorage.form !== null) {
+        document.querySelector('.full_name').value = savedData.Name;
+        document.querySelector('#email').value = savedData.Email;
+        document.getElementById('message').value = savedData.Message;
+      }
+    }
+  }
+};
+document.onload = populateForm();
