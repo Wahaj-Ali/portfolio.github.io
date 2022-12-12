@@ -210,8 +210,7 @@ submitButton.addEventListener('click', () => {
     Message: enteredMessage,
   };
   localStorage.setItem('Form Data', JSON.stringify(Data));
-}
-);
+});
 
 const populateForm = () => {
   if (localStorage.key('Form Data')) {
