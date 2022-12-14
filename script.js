@@ -25,14 +25,14 @@ const cards = [{
   id: 0,
   title: 'Multi-Post-Stories',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-  img: '/attributes/workimage.png',
+  img: './attributes/workimage.png',
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
 },
 {
   title: 'Profesional Art Printing Data More',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  img: '/attributes/workimage.png',
+  img: './attributes/workimage.png',
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 1,
@@ -41,7 +41,7 @@ const cards = [{
 {
   title: 'Multi-Post-Stories',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-  img: '/attributes/prjct2.png',
+  img: './attributes/prjct2.png',
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 2,
@@ -50,7 +50,7 @@ const cards = [{
 {
   title: 'Multi-Post-Stories',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-  img: '/attributes/prjct3.png',
+  img: './attributes/prjct3.png',
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 3,
@@ -59,7 +59,7 @@ const cards = [{
 {
   title: 'Profesional Art Printing Data More',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-  img: '/attributes/workimage.png',
+  img: './attributes/workimage.png',
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 4,
@@ -68,7 +68,7 @@ const cards = [{
 {
   title: 'Multi-Post-Stories',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-  img: '/attributes/prjct2.png',
+  img: './attributes/prjct2.png',
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 5,
@@ -77,7 +77,7 @@ const cards = [{
 {
   title: 'Multi-Post-Stories',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-  img: '/attributes/prjct3.png',
+  img: './attributes/prjct3.png',
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 6,
