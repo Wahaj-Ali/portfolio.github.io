@@ -41,13 +41,15 @@ const cards = [{
   source: 'https://github.com/Wahaj-Ali/to-do-list',
 },
 {
-  title: 'Multi-Post-Stories',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-  img: './attributes/prjct2.png',
+  title: 'Awesome Books',
+  description: "Awesome Books ES6 is a a website to add your favourite awesome books. It stores the books and displays them in a list.",
+  img: './attributes/awesoembooks.png',
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 2,
   uniqueId: 'prcjt2',
+  live: 'https://wahaj-ali.github.io/AwesomebooksES6/',
+  source: 'https://github.com/Wahaj-Ali/AwesomebooksES6',
 },
 {
   title: 'Multi-Post-Stories',

@@ -1154,6 +1154,9 @@ h3#greetings {
     width: auto;
     /* width: 659px; */
     height: 448px;
+    border: 5px solid #f55800;
+    border-radius: 5px;
+
   }
 
   .card-i {
@@ -1286,7 +1289,7 @@ h3#greetings {
   #prcjt2 {
     position: absolute;
     left: 534.5px;
-    background-image: url(attributes/prjct2.png);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(attributes/awesoembooks.png);
   }
 
   #prcjt3 {
