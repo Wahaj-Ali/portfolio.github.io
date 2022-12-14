@@ -996,7 +996,7 @@ h3#greetings {
     line-height: 44px;
     color: #fff;
     width: 337px;
-    height: 81px;
+    height: 40px;
     font-family: "Crete Round", serif;
     position: relative;
     top: 178px;
@@ -1015,6 +1015,7 @@ h3#greetings {
     position: relative;
     top: 153px;
     left: 16px;
+    margin-bottom: 55px;
   }
 
   .project:hover #projects-btn2 {
@@ -1150,7 +1151,8 @@ h3#greetings {
   }
 
   .card-img {
-    width: 659px;
+    width: auto;
+    /* width: 659px; */
     height: 448px;
   }
 
@@ -1253,7 +1255,7 @@ h3#greetings {
   }
 
   .project {
-    background-image: url(attributes/work-image-1.png);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(attributes/todolist.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
