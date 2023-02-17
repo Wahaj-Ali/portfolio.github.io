@@ -1,6 +1,8 @@
 body {
   overflow-x: hidden;
   overflow-y: scroll;
+  margin: 0;
+  padding:0;
 }
 
 header {
@@ -276,7 +278,7 @@ h3#greetings {
   align-items: center;
   color: white;
   border: none;
-  width: 124px;
+  width: 125px;
   height: 48px;
   font-weight: 700;
   font-size: 17px;
@@ -626,6 +628,7 @@ h3#greetings {
   padding-right: 24px;
   margin-top: -1px;
   height: 2px;
+  width: fit-content;
 }
 
 #intro_aboutme {
@@ -1235,7 +1238,6 @@ h3#greetings {
     align-self: flex-end;
     right: 519px;
     top: 1413px;
-    width: 124px;
     height: 48px;
     padding: 12px;
     font-weight: 700;
