@@ -840,7 +840,6 @@ h3#greetings {
   color: #fff;
   font-family: "Crete Round", serif;
   position: relative;
-  top: 56px;
   left: 16px;
 }
 
@@ -999,7 +998,7 @@ h3#greetings {
     height: 40px;
     font-family: "Crete Round", serif;
     position: relative;
-    top: 178px;
+
     left: 16px;
   }
 
@@ -1046,7 +1045,7 @@ h3#greetings {
   }
 
   .card-h {
-    width: 506px;
+    width: 570px;
     font-size: 32px;
     line-height: 40px;
     font-family: "Crete Round", serif;
@@ -1151,8 +1150,7 @@ h3#greetings {
   }
 
   .card-img {
-    width: auto;
-    /* width: 659px; */
+    width: 360px;
     height: 448px;
     border: 1px solid #f55800;
     border-radius: 5px;
@@ -1295,7 +1293,7 @@ h3#greetings {
   #prcjt3 {
     position: absolute;
     left: 927.5px;
-    background-image: url(attributes/prjct3.png);
+    background-image: url(attributes/capsotne1.jpg);
   }
 
   #prcjt4 {

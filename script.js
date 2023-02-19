@@ -31,7 +31,7 @@ const cards = [{
 },
 {
   title: 'To Do List',
-  description: "To Do List is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. It's a simple app built using ES6 and Webpack! ",
+  description: "To Do List is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.",
   img: './attributes/todolist.png',
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
@@ -52,10 +52,12 @@ const cards = [{
   source: 'https://github.com/Wahaj-Ali/AwesomebooksES6',
 },
 {
-  title: 'Multi-Post-Stories',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-  img: './attributes/prjct3.png',
-  techs: ['HTML', 'Bootstrap', 'Ruby'],
+  title: 'INTERNATIONAL PAK ORTHOCON 2022',
+  description: "It is a website for an event happening in my locality. It consists of two working pages i.e., Home page and About Page.",
+  img: './attributes/capsotne1.jpg',
+  techs: ['HTML', 'CSS'],
+  live: 'https://wahaj-ali.github.io/Capstone-1/index.html',
+  source: 'https://github.com/Wahaj-Ali/Capstone-1',
   btnText: 'See Project',
   id: 3,
   uniqueId: 'prcjt3',
@@ -150,10 +152,10 @@ cards.forEach((card) => {
              ${card.description}
              </p>
              <div class="card-b-wrap">
-               <a href="${card.live}" class="card-link">
+               <a href="${card.live}" target=”_blank class="card-link">
                  <button class="card-button" id="b1">See Live<img src="attributes/live.png" alt="" class="card-i"></button>
                </a>
-               <a class="card-link" href="${card.source}">
+               <a class="card-link" target=”_blank href="${card.source}">
                  <button class="card-button" id="b2">See Source<img src="attributes/vector.png" alt="" class="card-i2"></button>
                </a>
              </div>
