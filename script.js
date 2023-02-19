@@ -30,28 +30,34 @@ const cards = [{
   btnText: 'See Project',
 },
 {
-  title: 'Profesional Art Printing Data More',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  img: './attributes/workimage.png',
+  title: 'To Do List',
+  description: "To Do List is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.",
+  img: './attributes/todolist.png',
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 1,
   uniqueId: 'prcjt1',
+  live: 'https://wahaj-ali.github.io/to-do-list/dist/',
+  source: 'https://github.com/Wahaj-Ali/to-do-list',
 },
 {
-  title: 'Multi-Post-Stories',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-  img: './attributes/prjct2.png',
+  title: 'Awesome Books',
+  description: "Awesome Books ES6 is a a website to add your favourite awesome books. It stores the books and displays them in a list.",
+  img: './attributes/awesoembooks.png',
   techs: ['HTML', 'Bootstrap', 'Ruby'],
   btnText: 'See Project',
   id: 2,
   uniqueId: 'prcjt2',
+  live: 'https://wahaj-ali.github.io/AwesomebooksES6/',
+  source: 'https://github.com/Wahaj-Ali/AwesomebooksES6',
 },
 {
-  title: 'Multi-Post-Stories',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-  img: './attributes/prjct3.png',
-  techs: ['HTML', 'Bootstrap', 'Ruby'],
+  title: 'INTERNATIONAL PAK ORTHOCON 2022',
+  description: "It is a website for an event happening in my locality. It consists of two working pages i.e., Home page and About Page.",
+  img: './attributes/capsotne1.jpg',
+  techs: ['HTML', 'CSS'],
+  live: 'https://wahaj-ali.github.io/Capstone-1/index.html',
+  source: 'https://github.com/Wahaj-Ali/Capstone-1',
   btnText: 'See Project',
   id: 3,
   uniqueId: 'prcjt3',
@@ -146,10 +152,10 @@ cards.forEach((card) => {
              ${card.description}
              </p>
              <div class="card-b-wrap">
-               <a class="card-link">
+               <a href="${card.live}" target=”_blank class="card-link">
                  <button class="card-button" id="b1">See Live<img src="attributes/live.png" alt="" class="card-i"></button>
                </a>
-               <a class="card-link">
+               <a class="card-link" target=”_blank href="${card.source}">
                  <button class="card-button" id="b2">See Source<img src="attributes/vector.png" alt="" class="card-i2"></button>
                </a>
              </div>

@@ -843,7 +843,6 @@ h3#greetings {
   color: #fff;
   font-family: "Crete Round", serif;
   position: relative;
-  top: 56px;
   left: 16px;
 }
 
@@ -999,10 +998,10 @@ h3#greetings {
     line-height: 44px;
     color: #fff;
     width: 337px;
-    height: 81px;
+    height: 40px;
     font-family: "Crete Round", serif;
     position: relative;
-    top: 178px;
+
     left: 16px;
   }
 
@@ -1018,6 +1017,7 @@ h3#greetings {
     position: relative;
     top: 153px;
     left: 16px;
+    margin-bottom: 55px;
   }
 
   .project:hover #projects-btn2 {
@@ -1048,7 +1048,7 @@ h3#greetings {
   }
 
   .card-h {
-    width: 506px;
+    width: 570px;
     font-size: 32px;
     line-height: 40px;
     font-family: "Crete Round", serif;
@@ -1153,8 +1153,11 @@ h3#greetings {
   }
 
   .card-img {
-    width: 659px;
+    width: 360px;
     height: 448px;
+    border: 1px solid #f55800;
+    border-radius: 5px;
+
   }
 
   .card-i {
@@ -1255,7 +1258,7 @@ h3#greetings {
   }
 
   .project {
-    background-image: url(attributes/work-image-1.png);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(attributes/todolist.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1286,13 +1289,13 @@ h3#greetings {
   #prcjt2 {
     position: absolute;
     left: 534.5px;
-    background-image: url(attributes/prjct2.png);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(attributes/awesoembooks.png);
   }
 
   #prcjt3 {
     position: absolute;
     left: 927.5px;
-    background-image: url(attributes/prjct3.png);
+    background-image: url(attributes/capsotne1.jpg);
   }
 
   #prcjt4 {
